@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("qa_dataset_with_embeddings.csv")
+    df = pd.read_csv("data/qa_dataset_with_embeddings.csv")
     df["Question_Embedding"] = df["Question_Embedding"].apply(lambda x: np.array(eval(x)))
     return df
 
