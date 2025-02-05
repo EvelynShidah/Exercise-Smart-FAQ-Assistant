@@ -1,10 +1,6 @@
 openai=0.28
 spicy
 plotly
-streamlit
 pandas
-numpy
-torch
-sentence-transformers
 scikit-learn
-mapplotlab
+matplotlab
